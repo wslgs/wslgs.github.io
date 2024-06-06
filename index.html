@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weslley Gomes Dantas - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Weslley Gomes Dantas</h1>
-        <p>DevOps and Developer</p>
-    </header>
+        <div class="overlay"></div>
+        <div class="header-content">
+            <img src="images/profile.png" alt="Weslley Gomes Dantas" class="profile-pic">
+            <h1>Weslley Gomes Dantas</h1>
+            <p>DevOps and Developer</p>
+        </div>
+    </header>    
     <nav>
         <ul>
             <li><a href="#about">About Me</a></li>
+            <li><a href="#what-is-devops">What is DevOps</a></li>
             <li><a href="#skills">Skills & Tools</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Connect with Me</a></li>
@@ -24,15 +30,26 @@
         <h2>About Me</h2>
         <p>Hi, I'm Weslley Gomes Dantas, a dedicated DevOps and Developer specializing in automation and systems management. I have extensive experience in cloud computing and a results-driven approach. My goal is to integrate best practices to deliver high-quality outcomes.</p>
     </section>
+    <section id="what-is-devops">
+        <h2>What is DevOps?</h2>
+        <p>DevOps is a software development approach that combines development (Dev) and IT operations (Ops). Its goal is to improve collaboration between development and operations teams, automate processes, and increase efficiency in software delivery.</p>
+        <p>With DevOps, organizations can deliver software more quickly, reduce failures, and improve overall product quality. This is achieved through practices such as continuous integration (CI), continuous delivery (CD), infrastructure as code (IaC), monitoring, and automation.</p>
+        <ul>
+            <li><strong>Continuous Integration (CI):</strong> Automates the integration of code from all developers into a shared repository.</li>
+            <li><strong>Continuous Delivery (CD):</strong> Automates the delivery of code to production environments in a safe and efficient manner.</li>
+            <li><strong>Infrastructure as Code (IaC):</strong> Manages and provisions IT infrastructure through configuration files written as code.</li>
+            <li><strong>Monitoring and Logging:</strong> Observes and records system performance and behavior in real-time.</li>
+        </ul>
+    </section>    
     <section id="skills">
         <h2>Skills & Tools</h2>
         <ul>
-            <li>Languages: Python, JavaScript, Bash</li>
-            <li>DevOps Tools: Docker, Kubernetes, Ansible, Terraform</li>
-            <li>Cloud Platforms: AWS, Azure, Google Cloud</li>
-            <li>CI/CD: Jenkins, GitLab CI, GitHub Actions</li>
-            <li>Monitoring: Prometheus, Grafana, ELK Stack</li>
-            <li>Version Control: Git, GitHub, GitLab</li>
+            <li><i class="fas fa-code"></i> Languages: Python, JavaScript, Bash</li>
+            <li><i class="fas fa-tools"></i> DevOps Tools: Docker, Kubernetes, Ansible, Terraform</li>
+            <li><i class="fas fa-cloud"></i> Cloud Platforms: AWS, Azure, Google Cloud</li>
+            <li><i class="fas fa-sync-alt"></i> CI/CD: Jenkins, GitLab CI, GitHub Actions</li>
+            <li><i class="fas fa-chart-line"></i> Monitoring: Prometheus, Grafana, ELK Stack</li>
+            <li><i class="fas fa-code-branch"></i> Version Control: Git, GitHub, GitLab</li>
         </ul>
     </section>
     <section id="projects">
@@ -44,10 +61,11 @@
     <section id="contact">
         <h2>Connect with Me</h2>
         <ul>
-            <li><a href="https://www.linkedin.com/in/wslgs">LinkedIn</a></li>
-            <li><a href="mailto:weslley_45@hotmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/wslgs"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="mailto:weslley_45@hotmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+            <li><a href="https://wa.me/5583986379936" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
         </ul>
-    </section>
+    </section>    
     <footer>
         <p>&copy; 2024 Weslley Gomes Dantas. All rights reserved.</p>
     </footer>
