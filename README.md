@@ -2,6 +2,8 @@
 
 Welcome to my portfolio! Here you'll find information about my skills, experience, and projects. Visit the site [here](https://wslgs.github.io).
 
+This version features a modern responsive layout with a mobile menu and smooth scrolling.
+
 ## Contents
 
 - About Me
